@@ -1,0 +1,66 @@
+html {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    height: 1200px;
+    width: 100%;
+}
+
+#topnav {
+    display: flex;
+    flex-direction: column;
+    height: 9%;
+    background-color: #0084ff;
+}
+
+#searchbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    height: 40%;
+    margin: 8px auto 0px auto;
+    background-color: white;
+}
+
+.tabnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50%;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    height: 58px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.tabtext {
+    height: 95%;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.stripe {
+    height: 3px;
+    background-color: yellow;
+
+}
